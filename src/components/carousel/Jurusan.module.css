@@ -1,0 +1,36 @@
+/* .Jurusan::after {
+  content: '';
+  background: url('../../images/lumba-lumba.png') no-repeat center center/cover;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  transform: translate(0);
+} */
+
+.ImageWrapper {
+  max-width: 280px;
+  position: absolute;
+  top: -5px;
+  left: 50px;
+  transform: scale(1.6);
+  box-shadow: ;
+}
+
+.ImageWrapper img {
+  width: 280px;
+}
+
+.ImageWrapper2 {
+  width: 200px;
+  max-height: 200px;
+  position: absolute;
+  top: 105px;
+  right: -30px;
+}
+
+.ImageWrapper2 img {
+  width: 200px;
+  max-height: 200px;
+}
