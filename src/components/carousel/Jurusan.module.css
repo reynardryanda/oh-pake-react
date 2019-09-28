@@ -14,7 +14,7 @@
   position: absolute;
   top: -5px;
   left: 50px;
-  transform: scale(1.6);
+  transform: scale(1.7);
   box-shadow: 2px;
 }
 
@@ -26,8 +26,9 @@
   width: 200px;
   max-height: 200px;
   position: absolute;
-  top: 105px;
-  right: -30px;
+  /* bottom: -5px; */
+  top: 110px;
+  right: -10px;
 }
 
 .ImageWrapper2 img {
@@ -41,4 +42,15 @@
   color: rgb(214, 130, 130);
   z-index: 99;
   font-size: 5rem;
+}
+
+.slidr{
+  /* padding: 50px; */
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(197, 197, 197);
+  border: rgba(181, 181, 181, 0.636);
+}
+
+.slidr > div {
+  border-radius: 30px; 
 }

@@ -18,8 +18,14 @@ export class LandingPage extends Component {
           </p>
         </div>
         <div className={styles.LandingPage}>
-          <Jurusan image={1}></Jurusan>
-          <Jurusan image={2}></Jurusan>
+          <div className={styles.box}>
+            <h2 className={styles.slideTitle} >MAJORS</h2>
+            <Jurusan image={1} />
+          </div>
+          <div  className={styles.box}>
+            <h2 className={styles.slideTitle} >ACTIVITIES</h2>
+            <Jurusan image={2} />
+          </div>
         </div>
       </header>
     );

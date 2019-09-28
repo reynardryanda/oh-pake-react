@@ -61,6 +61,7 @@ export class Jurusan extends Component {
           leftChevron = {<FontAwesomeIcon icon={faAngleLeft} className={styles.gede} />}
           rightChevron = {<FontAwesomeIcon icon={faAngleRight} className={styles.gede} />}
           outsideChevron={true}
+          className={styles.slidr}
         >
           {children}
         </ItemsCarousel>
