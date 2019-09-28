@@ -15,7 +15,7 @@
   top: -5px;
   left: 50px;
   transform: scale(1.6);
-  box-shadow: ;
+  box-shadow: 2px;
 }
 
 .ImageWrapper img {
@@ -33,4 +33,12 @@
 .ImageWrapper2 img {
   width: 200px;
   max-height: 200px;
+}
+
+.gede{
+  height: 100px;
+  width: auto!important;
+  color: rgb(214, 130, 130);
+  z-index: 99;
+  font-size: 5rem;
 }

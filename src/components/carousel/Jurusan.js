@@ -4,6 +4,9 @@ import styles from './Jurusan.module.css';
 import image from '../../images/cs.jpg';
 import image2 from '../../images/lumba-lumba.png';
 import image3 from '../../images/anemon.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
+ 
 
 export class Jurusan extends Component {
   state = {
@@ -53,18 +56,20 @@ export class Jurusan extends Component {
           activeItemIndex={activeItemIndex}
           activePosition={'center'}
           chevronWidth={88}
-          rightChevron={<p style={{ zIndex: 99 }}>{'>'}</p>}
-          leftChevron={<p style={{ zIndex: 99 }}>{'<'}</p>}
+          // rightChevron={<p style={{ zIndex: 99 }} className={styles.gede}>{'>'}</p>}
+          // leftChevron={<p style={{ zIndex: 99 }} className={styles.gede}>{'<'}</p>}
+          leftChevron = {<FontAwesomeIcon icon={faAngleLeft} className={styles.gede} />}
+          rightChevron = {<FontAwesomeIcon icon={faAngleRight} className={styles.gede} />}
           outsideChevron={true}
         >
           {children}
         </ItemsCarousel>
         <div
           className={
-            this.props.image == 1 ? styles.ImageWrapper : styles.ImageWrapper2
+            this.props.image === 1 ? styles.ImageWrapper : styles.ImageWrapper2
           }
         >
-          <img src={this.props.image == 1 ? image2 : image3} alt='' />
+          <img src={this.props.image === 1 ? image2 : image3} alt='' />
         </div>
       </div>
     );
