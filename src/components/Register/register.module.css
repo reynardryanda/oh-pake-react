@@ -1,0 +1,19 @@
+.registerContainer{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.biggerButton > button {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 10px 40px;
+}
+
+.registerContainer h1 {
+    font-size: 2.2rem;
+}
+
+.h5Dive {
+    font-size: 1.5rem;
+    font-family: 'Coves Bold';
+}

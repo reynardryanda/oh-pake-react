@@ -10,27 +10,74 @@
 } */
 
 .ImageWrapper {
-  max-width: 280px;
+  /* max-width: 280px; */
   position: absolute;
-  top: -5px;
-  left: 50px;
-  transform: scale(1.6);
-  box-shadow: ;
+  top: -10%;
+  left: -5%;
+  transform: scale(1.07);
+  box-shadow: 2px;
 }
 
 .ImageWrapper img {
-  width: 280px;
+  width: 100%;
 }
 
 .ImageWrapper2 {
   width: 200px;
   max-height: 200px;
   position: absolute;
-  top: 105px;
-  right: -30px;
+  bottom: -12%;
+  /* top: 110px; */
+  right: -4%;
 }
 
 .ImageWrapper2 img {
-  width: 200px;
-  max-height: 200px;
+  width: 88%;
+  /* max-height: 200px; */
+}
+
+.gede{
+  height: 100px;
+  width: auto!important;
+  color: rgb(214, 130, 130);
+  z-index: 99;
+  font-size: 5rem;
+}
+
+.slidr{
+  /* padding: 50px; */
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(197, 197, 197);
+  border: rgba(181, 181, 181, 0.636);
+}
+
+.slidr > div {
+  border-radius: 30px; 
+}
+
+.slideTitle {
+  margin-bottom: 30px;
+  color: rgb(207, 151, 30); 
+}
+
+.box{
+  margin: 0 30px;
+}
+
+.text{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.text  > p {
+  width: 80%;
+  text-align: center;
+  align-self: center;
+  top: 100%;
+  position: absolute;
+  margin: 0 auto;
+  left: 10%;
 }

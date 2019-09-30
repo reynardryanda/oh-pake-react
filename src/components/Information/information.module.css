@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Coves Bold';
+    src: url('../../Coves-Bold.otf');
+  }
+
+.infoContainer{
+    background-image: url('../../images/diver.png');
+    background-position: left;
+    background-position-x: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    padding: 30px 0 30px calc(5px + 0.5vw);
+}
+
+.infoContainer h2{
+    font-size: 1.6rem;
+    color: rgb(235, 178, 56);
+}
+
+.h5Dive {
+    font-size: 1.5rem;
+    font-family: 'Coves Bold';
+    color: rgb(207, 151, 30);
+}
+
+.informationDetail{
+    width: 60%;
+}
+
+.informationDetail > p{
+    border-left-color: rgb(134, 15, 15);
+    border-left-width: 2.5px;
+    border-left-style: solid;
+    padding-left: calc(5px + 0.5vw);
+    font-size: 1.2rem;
+}
+
+.placeDate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.placeDate img {
+    height: 80px;
+    width: 80px;
+}

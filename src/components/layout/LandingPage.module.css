@@ -3,17 +3,25 @@
   width: 100%;
   text-align: center;
   line-height: 0;
+  padding: 20px calc(20px + 2vw);
+  margin-bottom: 80px;
 }
 
 .TextWrapper {
   padding-bottom: 1rem;
   max-width: 1100px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Header h1 {
+  font-size: 2rem;
+  color: rgb(235, 178, 56);
   padding: 1rem 1rem 0.5rem 1rem;
-  font-size: 3rem;
+  max-width: 400px;
 }
 
 .Header p {
@@ -22,6 +30,6 @@
 
 .LandingPage {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 1rem;
 }
