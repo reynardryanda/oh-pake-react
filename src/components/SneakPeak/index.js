@@ -19,7 +19,7 @@ export default class SneakPeak extends Component {
 
     return (
       <div>
-        <h2 className={styles.slideTitle} >SneakPeak</h2>
+        <h2 className={styles.title} >SneakPeak</h2>
         <div className={styles.box}>
             <div
             style={{
@@ -52,7 +52,6 @@ export default class SneakPeak extends Component {
                 {children}
             </ItemsCarousel>
             </div>
-            <div>ahahahha</div>
         </div>
       </div>
     );
