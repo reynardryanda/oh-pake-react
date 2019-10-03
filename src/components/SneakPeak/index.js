@@ -14,7 +14,7 @@ export default class SneakPeak extends Component {
 
   render() {
     const { activeItemIndex } = this.state;
-    const children = [<div className={styles.anjay}/>, 
+    const children = [<div className={styles.anjay}/>,
         <div className={styles.anjay}/>]
 
     return (
