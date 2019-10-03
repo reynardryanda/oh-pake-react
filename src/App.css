@@ -35,8 +35,17 @@ h1, h2, h3, h4, .aquatico{
 
 p{
   font-family: 'Coves Light';
+  font-weight: 100;
 }
 
 .bold {
   font-weight: 800;
+}
+
+img{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

@@ -5,6 +5,7 @@ import './App.css';
 import Counter from './components/Counter';
 import Information from './components/Information';
 import Register from './components/Register';
+import SneakPeak from './components/SneakPeak';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <LandingPage></LandingPage>
         <Counter />
         <Information />
+        <SneakPeak />
         <Register />
       </div>
     );

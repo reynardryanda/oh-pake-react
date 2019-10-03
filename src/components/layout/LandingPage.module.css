@@ -1,6 +1,6 @@
 .Header {
   background: #fff;
-  width: 100%;
+  /* width: 100vw; */
   text-align: center;
   line-height: 0;
   padding: 20px calc(20px + 2vw);
@@ -31,5 +31,7 @@
 .LandingPage {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
   padding: 1rem;
+  flex-wrap: wrap;
 }

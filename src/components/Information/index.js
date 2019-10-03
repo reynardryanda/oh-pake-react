@@ -13,7 +13,7 @@ export default class Information extends Component {
                         <h5 className={styles.h5Dive}>#DiveIntoIT</h5>
                     </div>
                     <div className={styles.informationDetail}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet qui cupiditate facilis quas id aliquam repellendus ipsa accusantium dolore? Eligendi quae quis consectetur neque modi natus corrupti odio suscipit assumenda sequi molestiae ipsa impedit dignissimos dolore, tempora esse laborum et asperiores eveniet possimus molestias quaerat autem, reiciendis voluptates! Quaerat.</p>
+                        <p>Open House Fasilkom UI 2019 adalah acara rutin tahunan yang menargetkan siswa/i Sekolah Menengah Atas di kawasan Jabodetabek sebagai pesertanya dengan harapan para peserta dapat mengenal dan mengetahui Fasilkom UI lebih dalam sehingga dapat mempersiapkan diri dalam menyusun rencana masa depannya.</p>
                     </div>
                     <div className={styles.placeDate}>
                         <img src={calendarImg} alt="" />
