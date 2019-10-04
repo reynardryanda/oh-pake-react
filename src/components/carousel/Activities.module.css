@@ -37,7 +37,7 @@
   
   .slidr{
     /* padding: 50px; */
-    min-width: 205px;
+    min-width: 105px;
     border-radius: 30px;
     box-shadow: 0px 0px 20px rgb(197, 197, 197);
     border: rgba(181, 181, 181, 0.636);
@@ -74,3 +74,15 @@
     margin: 0 auto;
     left: 5%;
   }
+
+@media screen and (max-width:550px){
+  .text{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:440px){
+  .text{
+    margin-bottom: 100px;
+  }
+}

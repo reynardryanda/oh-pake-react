@@ -27,7 +27,7 @@ export default class Activities extends Component {
             padding: '0 60px',
             maxWidth: '400px',
             maxHeight: '400px',
-            minWidth: '205px',
+            minWidth: '100px',
             margin: '0 auto',
             position: 'relative'
           }}

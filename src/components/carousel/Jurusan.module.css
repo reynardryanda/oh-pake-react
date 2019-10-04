@@ -20,6 +20,7 @@
 
 .ImageWrapper img {
   width: 100%;
+  min-width: 280px;
 }
 
 .ImageWrapper2 {
@@ -49,6 +50,8 @@
   border-radius: 30px;
   box-shadow: 0px 0px 20px rgb(197, 197, 197);
   border: rgba(181, 181, 181, 0.636);
+  min-width: 200px;
+  min-height: 200px;
 }
 
 .slidr > div {
@@ -91,4 +94,18 @@
   /* position: absolute; */
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.Jurusan{
+  padding: 0 60px;
+  max-width: 350px;
+  max-height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 420px){
+  .Jurusan {
+    padding: 0 10vw;
+  }
 }

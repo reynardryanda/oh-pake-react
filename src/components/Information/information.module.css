@@ -42,6 +42,7 @@ font-face {
   font-size: 1.2rem;
 }
 
+
 .placeDate {
   display: flex;
   flex-direction: row;
@@ -52,4 +53,11 @@ font-face {
 .placeDate img {
   height: 80px;
   width: 80px;
+}
+
+@media screen and (max-width:700px){
+  .textContainer{
+    margin-left: 30px;
+    padding-right: 20px;
+  }
 }

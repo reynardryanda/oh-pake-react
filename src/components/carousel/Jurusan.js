@@ -11,13 +11,6 @@ export class Jurusan extends Component {
       <div className={styles.box}>
         <h4 className={styles.slideTitle} >{content.title}</h4>
         <div
-          style={{
-            padding: '0 60px',
-            maxWidth: '350px',
-            maxHeight: '350px',
-            margin: '0 auto',
-            position: 'relative'
-          }}
           className={styles.Jurusan}
         >
         <div className={styles.slidr}>

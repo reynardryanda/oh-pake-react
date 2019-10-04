@@ -37,7 +37,7 @@ export class LandingPage extends Component {
     const activities = [
       {
         content: 
-          <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '205px' }}>
+          <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '105px' }}>
             <img
               src={image}
               style={{ maxWidth: '100%', maxHeight: '100%' }}
@@ -49,7 +49,7 @@ export class LandingPage extends Component {
       }, 
       {
         content: 
-          <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '205px' }}>
+          <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '105px' }}>
             <img
               src={image}
               style={{ maxWidth: '100%', maxHeight: '100%' }}
@@ -61,7 +61,7 @@ export class LandingPage extends Component {
       },
       {
         content: 
-          <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '205px' }}>
+          <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '105px' }}>
             <img
               src={image}
               style={{ maxWidth: '100%', maxHeight: '100%' }}
