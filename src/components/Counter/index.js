@@ -31,7 +31,7 @@ export default class Counter extends Component {
   }
 
   calculateTime(now) {
-    let time = Math.floor((new Date("02 Nov 2019 07:00") - now) / 1000);
+    let time = Math.floor((new Date("02 Nov 2019 00:00") - now) / 1000);
     if (time <= 0) {
       this.setState({ today: true })
     }

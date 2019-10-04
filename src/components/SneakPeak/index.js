@@ -45,7 +45,7 @@ export default class SneakPeak extends Component {
                 // rightChevron={<p style={{ zIndex: 99 }} className={styles.gede}>{'>'}</p>}
                 // leftChevron={<p style={{ zIndex: 99 }} className={styles.gede}>{'<'}</p>}
                 leftChevron = {<FontAwesomeIcon icon={faChevronCircleLeft} className={styles.gede} />}
-                rightChevron = {<FontAwesomeIcon icon={faChevronCircleRight} />}
+                rightChevron = {<FontAwesomeIcon icon={faChevronCircleRight} className={styles.gede} />}
                 outsideChevron={true}
                 className={styles.slidr}
             >
