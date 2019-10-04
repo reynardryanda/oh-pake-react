@@ -1,55 +1,55 @@
 font-face {
-    font-family: 'Coves Bold';
-    src: url('../../Coves-Bold.otf');
-  }
-
-.infoContainer{
-    display: flex;
-    height: 700px;
-    width: 100%;
-    align-items: center;
-    background-image: url('../../images/divers_dicrop.png');
-    background-size: 1200px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
-}
-.textContainer{
-    margin-left: 70px;
-    width: 700px;
+  font-family: "Coves Bold";
+  src: url("../../Coves-Bold.otf");
 }
 
-.infoContainer h2{
-    font-size: 2.1rem;
-    color: rgb(235, 178, 56);
+.infoContainer {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  background-image: url("../../images/divers_dicrop.png");
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.textContainer {
+  margin-left: 70px;
+  width: 700px;
+}
+
+.infoContainer h2 {
+  font-size: 2.1rem;
+  color: rgb(235, 178, 56);
 }
 
 .h5Dive {
-    font-size: 2rem;
-    font-family: 'Coves Bold';
-    color: rgb(207, 151, 30);
+  font-size: 2rem;
+  font-family: "Coves Bold";
+  color: rgb(207, 151, 30);
 }
 
-.informationDetail{
-    width: 100%;
+.informationDetail {
+  width: 100%;
 }
 
-.informationDetail > p{
-    border-left-color: rgb(134, 15, 15);
-    border-left-width: 2.5px;
-    border-left-style: solid;
-    padding-left: calc(5px + 0.5vw);
-    font-size: 1.2rem;
+.informationDetail > p {
+  border-left-color: rgb(134, 15, 15);
+  border-left-width: 2.5px;
+  border-left-style: solid;
+  padding-left: calc(5px + 0.5vw);
+  font-size: 1.2rem;
 }
 
-.placeDate{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 1.2rem;
+.placeDate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
 .placeDate img {
-    height: 80px;
-    width: 80px;
+  height: 80px;
+  width: 80px;
 }
