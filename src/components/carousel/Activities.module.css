@@ -14,16 +14,16 @@
   .ImageWrapper2 {
     /* width: 200px;
     max-height: 200px; */
-    position: absolute;
-    bottom: -12%;
-    /* top: 110px; */
-    right: -30%;
-    width: fit-content;
+    
   }
   
   .ImageWrapper2 img {
     width: 44%;
     min-width: 140px;
+    position: absolute;
+    bottom: -35px;
+    right: -15px;
+    /* top: 110px; */
     /* max-height: 200px; */
   }
   
