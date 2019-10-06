@@ -10,7 +10,7 @@ export default class Navbar extends Component {
       <div className={styles.Navbar}>
         <img src={logo} alt='logo' />
         <nav>
-          <ul class='navbar'>
+          <ul>
             <li>
                 <Link
                   activeClass="active"
