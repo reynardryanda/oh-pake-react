@@ -8,6 +8,7 @@ import Information from './components/Information';
 import Register from './components/Register';
 import SneakPeak from './components/SneakPeak';
 import WhatTheySay from './components/WhatTheySay';
+import Footer from './components/layout/Footer';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <SneakPeak />,
         <WhatTheySay />,
         <Register />,
+        <Footer />
     ]
     return (
       <div className='App'>

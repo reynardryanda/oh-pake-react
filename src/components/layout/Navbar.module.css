@@ -25,6 +25,7 @@
 @media screen and (max-width: 420px){
   .Navbar nav{
     margin-right: 0;
+    margin-left: 5px;
   }
   .links{
     font-size: 0.8rem;
