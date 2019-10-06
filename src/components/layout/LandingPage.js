@@ -75,17 +75,21 @@ export default class LandingPage extends Component {
     ]
     return (
       <header className={styles.Header}>
-        <div className={styles.TextWrapper}>
-          <h1>A GLIMPSE OF LIFE AT FASILKOM UI</h1>
-          <p>
-          Berdiri sejak tahun 1993, Fakultas Ilmu Komputer UI atau biasa disebut Fasilkom UI adalah salah satu fakultas Rumpun Ilmu Sains dan Teknologi. Fasilkom UI mengelola program pendidikan jenjang dengan gelar sarjana (S1), magister (S2), dan doktor (S3) serta program pelatihan non-gelar.
-          </p>
-        </div>
-        <h2 style={{ color: 'rgb(207, 151, 30)', width: '100%', marginTop: '30px'}}>MAJORS</h2>
-        <div className={styles.LandingPage}>
-          <Jurusan content={majors[0]} />   
-          <Jurusan content={majors[1]} />    
-        </div>
+        <Fade bottom>
+          <div className={styles.TextWrapper}>
+            <h1>A GLIMPSE OF LIFE AT FASILKOM UI</h1>
+            <p>
+            Berdiri sejak tahun 1993, Fakultas Ilmu Komputer UI atau biasa disebut Fasilkom UI adalah salah satu fakultas Rumpun Ilmu Sains dan Teknologi. Fasilkom UI mengelola program pendidikan jenjang dengan gelar sarjana (S1), magister (S2), dan doktor (S3) serta program pelatihan non-gelar.
+            </p>
+          </div>
+        </Fade>
+        <Fade bottom>
+          <h2 style={{ color: 'rgb(207, 151, 30)', width: '100%', marginTop: '30px'}}>MAJORS</h2>
+          <div className={styles.LandingPage}>
+            <Jurusan content={majors[0]} />   
+            <Jurusan content={majors[1]} />    
+          </div>
+        </Fade>
         <Fade bottom>
           <Activities title={"ACTIVITIES"} content={activities}/>
         </Fade>

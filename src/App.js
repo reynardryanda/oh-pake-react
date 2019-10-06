@@ -25,7 +25,7 @@ class App extends Component {
         {
           components.map(child => {
           return(
-            <Fade bottom >
+            <Fade bottom>
               {child}
             </Fade>
           );
