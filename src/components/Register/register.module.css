@@ -4,16 +4,17 @@
 }
 
 .biggerButton > button {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     padding: 10px 40px;
 }
 
 .registerContainer h1 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
 }
 
 .h5Dive {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Coves Bold';
+    margin-bottom: 20px;
 }

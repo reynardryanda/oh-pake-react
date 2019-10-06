@@ -15,14 +15,13 @@ export default class WhatTheySay extends Component {
             </div>
             <div className={styles.textBubble}>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+              Menjadi murid SMA tingkat akhir yaitu kelas 12 tentu menjadi masa-masa yang sangat krusial bagi kita semua.
+              Karena kita sebentar lagi akan melanjutkan pendidikan ke jenjang yang lebih tinggi.
+              Saat saya sedang bingung mau masuk fakultas apa, saya ingat bahwa saya selalu melibatkan teknologi informasi di kehidupan saya.
+              Terbesit dalam benak saya mengenai Fakultas Ilmu Komputer. 
+              OH Fasilkom UI sangat membantu saya lebih tahu mengenai peran Teknologi Informasi, dan tentunya lebih tahu tentang Fasilkom, fakultas paling keren di UI ini!
               </p>
-              <h4>- Nama Orang</h4>
+              <h4>- Rania Devina Nandini (Sistem Informasi 2019)</h4>
             </div>
         </div>
       </div>

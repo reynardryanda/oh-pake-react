@@ -6,19 +6,22 @@
 }
 .box{
     display: flex;
-
+    height: 700px;
+    margin-bottom: 100px;
 }
 .lumba{
     height: 100%;
+    width: 30%;
 }
 .lumba img{
-    width: 400px;
-    margin-top: 200px;
+    width: 500px;
+    margin-top: 280px;
 
 }
 .textBubble{
     color: white;
-    width: 50%;
+    width: 60%;
+    height: 100%;
     background-image: url('../../images/textBubble.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -26,13 +29,13 @@
 .textBubble p{
     font-size: 1.3rem;
     width: 80%;
-    margin-top: 160px;
-    margin-left: 70px;
+    margin-top: 180px;
+    margin-left: 90px;
 }
 .textBubble h4{
     margin-top: 30px;
-    font-size: 1.5rem;
-    margin-left: 70px;
+    font-size: 1.2rem;
+    margin-left: 90px;
 }
 
 @media only screen and (max-width: 600px){
