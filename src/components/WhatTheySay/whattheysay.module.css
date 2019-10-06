@@ -19,7 +19,7 @@
 }
 .lumba img{
     width: 100%;
-    margin-top: 100%;
+    margin-top: 90%;
 }
 .textBubble{
     color: white;
@@ -27,26 +27,101 @@
     background-image: url('../../images/textBubble.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 10% 3% 
+    padding: 12% 5%;
 }
 .textBubble p{
     font-size: calc(0.5rem + 1vw);
-    width: 100%;
+    width: 90%;
 }
 .textBubble h4{
     margin-top: 30px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 831px){
+@media only screen and (max-width: 1245px){
+    
+}
+
+@media only screen and (max-width: 938px){
+    .textBubble{
+        background-image: url('../../images/textBubbleMobile.png');
+        height: 600px;
+        padding: 13% 7%;
+    }
+    .textBubble p{
+        font-size: 1rem;
+    }
+    .textBubble h4{
+        font-size: 1rem;
+    }
     .lumba img{
-        margin-top: 0;
+        margin-top: 10%;
     }
 }
 
-@media screen and (max-width: 760px){
+@media only screen and (max-width: 938px){
     .textBubble{
-        width: 80%;
-        /* min-height: 400px;  */
+        background-image: url('../../images/textBubbleMobile.png');
+        height: 600px;
+        padding: 13% 7%;
+    }
+    .textBubble p{
+        font-size: 1rem;
+    }
+    .textBubble h4{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 771px){
+    .textBubble{
+        background-image: url('../../images/textBubbleMobile.png');
+        height: 550px;
+        background-size: 100% 100%;
+        padding: 15% 7%;
+        
+    }
+}
+
+
+@media screen and (max-width: 564px){
+    .textBubble{
+        background-image: url('../../images/textBubbleMobile2.png');
+        height: 600px;
+        background-size: 100% 100%;
+    }
+    .textBubble h4{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 564px){
+    .textBubble{
+        background-image: url('../../images/textBubbleMobile3.png');
+        height: 650px;
+    }
+    .textBubble p{
+        font-size: 1rem;
+    }
+    .textBubble h4{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 402px){
+    .textBubble{
+        background-image: url('../../images/textBubbleMobile4.png');
+        height: 665px;
+    }
+    .textBubble p{
+        font-size: 1rem;
+    }
+    .textBubble h4{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .textBubble{
+        background-image: url('../../images/textBubbleMobile5.png');
+        height: 750px;
     }
 }

@@ -14,6 +14,7 @@ font-face {
   background-position-x: right;
   background-position-y: center;
 }
+
 .textContainer {
   margin-left: 70px;
   width: 700px;
@@ -54,6 +55,29 @@ font-face {
   height: 80px;
   width: 80px;
 }
+
+@media screen and (max-width:1248px){
+    .infoContainer {
+      display: block;
+      height: 700px;
+      background-image: url("../../images/divers_dicrop.png");
+      background-position-x: right;
+      background-position-y: bottom;
+    }
+}
+@media screen and (max-width:790px){
+  .infoContainer {
+    display: block;
+    height: 900px;
+    width: 100%;
+    background-image: url("../../images/divers_dicrop.png");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+}
+
 
 @media screen and (max-width:700px){
   .textContainer{
