@@ -94,3 +94,9 @@ font-face {
     padding-right: 20px;
   }
 }
+@media screen and (max-width:330px){
+  .infoContainer {
+    height: 1000px;
+    background-size: 450px;
+  }
+}
