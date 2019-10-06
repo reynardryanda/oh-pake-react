@@ -11,7 +11,8 @@
     justify-content: center;
 }
 .sneakContainer{
-    width: 60vw
+    width: 60vw;
+    /* padding : 60px; */
 }
 .anjay{
     /* height: 100%; */

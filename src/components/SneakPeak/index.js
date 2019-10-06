@@ -50,7 +50,7 @@ export default class SneakPeak extends Component {
                 requestToChangeActive={this.changeActiveItem}
                 activeItemIndex={activeItemIndex}
                 activePosition={'center'}
-                chevronWidth={88}
+                chevronWidth={60}
                 // rightChevron={<p style={{ zIndex: 99 }} className={styles.gede}>{'>'}</p>}
                 // leftChevron={<p style={{ zIndex: 99 }} className={styles.gede}>{'<'}</p>}
                 leftChevron = {<FontAwesomeIcon icon={faChevronCircleLeft} className={styles.gede} />}
