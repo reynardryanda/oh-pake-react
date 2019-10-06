@@ -52,3 +52,18 @@ img{
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+.landingpage{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/landing.jpg");
+  background-size: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-bg{
+  background-image: linear-gradient(#e3dff5,#eceae1,#a5dbe2,#8fbbc1,#629ea8)
+}

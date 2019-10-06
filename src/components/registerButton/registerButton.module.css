@@ -13,6 +13,7 @@
     margin-top: 10px;
     font-family: 'Coves Bold';
     transition: 0.5s;
+    cursor: pointer;
     font-weight: 800;
 }
 

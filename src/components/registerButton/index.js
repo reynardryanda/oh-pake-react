@@ -5,7 +5,7 @@ export default class RegisterButton extends Component {
     render(){
         return(
             <div className={this.props.className}>                
-                <button className={styles.button}>
+                <button className={styles.button} onClick={()=>{window.location.assign('https://docs.google.com/forms/d/e/1FAIpQLSfDlkFijBJnEI8lPO08u-lHqoayeQIQlMUlGApp4yoj8pZKRw/viewform')}}>
                     Register Here!
                 </button>
             </div>

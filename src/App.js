@@ -22,15 +22,18 @@ class App extends Component {
     return (
       <div className='App'>
         <Navbar />
-        {
+        <div className='landingpage' />
+        <div className="main-bg">
+          {
           components.map(child => {
-          return(
-            <Fade bottom>
+            return(
+              <Fade bottom>
               {child}
-            </Fade>
-          );
-          })
-        }
+              </Fade>
+              );
+            })
+          }
+        </div>
       </div>
     );
   }
