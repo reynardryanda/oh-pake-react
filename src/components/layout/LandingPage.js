@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import styles from './LandingPage.module.css';
 import Jurusan from '../carousel/Jurusan';
-import ilkom from '../../images/ilkom.jpg';
-import si from '../../images/si.jpg';
+import ilkom from '../../images/ilkom.png';
+import si from '../../images/si.png';
 import compfest from '../../images/compfest.jpg';
 import muskan from '../../images/muskan.jpg';
 import educare from '../../images/educare.jpg';
@@ -18,7 +18,7 @@ export default class LandingPage extends Component {
           <div style={{ maxWidth: '400px', maxHeight: '400px' }}>
             <img
               src={ilkom}
-              style={{ width: '100%', height: '100%' }}
+              style={{ width: '80%', height: '80%' }}
               alt=''
             />
           </div>,
@@ -30,7 +30,7 @@ export default class LandingPage extends Component {
           <div style={{ maxWidth: '400px', maxHeight: '400px' }}>
             <img
               src={si}
-              style={{ width: '100%', height: '100%' }}
+              style={{ width: '80%', height: '80%' }}
               alt=''
             />
           </div>,
