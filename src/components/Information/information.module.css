@@ -72,14 +72,23 @@ font-face {
     width: 100%;
     background-image: url("../../images/divers_dicrop.png");
     background-size: 900px;
-    background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+  }
+  .infoContainer > p{
+    padding-left: 10px;
+  }
+  .textContainer {
+    margin-left: 70px;
+    width: auto;
   }
 }
 
 
 @media screen and (max-width:700px){
+  .infoContainer {
+    background-size: 500px;
+  }
   .textContainer{
     margin-left: 30px;
     padding-right: 20px;
