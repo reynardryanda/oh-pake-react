@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 import styles from './LandingPage.module.css';
 import Jurusan from '../carousel/Jurusan';
 import image from '../../images/cs.jpg';
 import Activities from '../carousel/Activities';
 
 
-export class LandingPage extends Component {
+export default class LandingPage extends Component {
   render() {
     const majors = [
       {
@@ -82,13 +83,13 @@ export class LandingPage extends Component {
         </div>
         <h2 style={{ color: 'rgb(207, 151, 30)', width: '100%', marginTop: '30px'}}>MAJORS</h2>
         <div className={styles.LandingPage}>
-            <Jurusan content={majors[0]} />   
-            <Jurusan content={majors[1]} />          
+          <Jurusan content={majors[0]} />   
+          <Jurusan content={majors[1]} />    
         </div>
-        <Activities title={"ACTIVITIES"} content={activities}/>
+        <Fade bottom>
+          <Activities title={"ACTIVITIES"} content={activities}/>
+        </Fade>
       </header>
     );
   }
 }
-
-export default LandingPage;
