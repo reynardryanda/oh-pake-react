@@ -31,26 +31,7 @@ export default class Navbar extends Component {
                 duration= {500}
               >RSVP</Link>
             </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="header"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration= {500}
-              >Majors</Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="testimonials"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration= {500}
-              >Testimonials</Link>
-            </li>
+            
             <li>
               <Link
                 activeClass="active"
@@ -63,11 +44,7 @@ export default class Navbar extends Component {
             </li>
           </ul>
         </nav>
-        <a href='#' class='contact'>
-          <button type='button' name='button'>
-            Contact
-          </button>
-        </a>
+    
       </div>
     );
   }
