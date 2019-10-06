@@ -6,7 +6,7 @@ import locationImg from '../../images/location.png';
 export default class Information extends Component {
   render() {
     return (
-      <div className={styles.infoContainer}>
+      <div className={styles.infoContainer} id="info">
         <div class={styles.textContainer}>
           <div>
             <h2>OPEN HOUSE FASILKOM UI</h2>

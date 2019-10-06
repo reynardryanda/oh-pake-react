@@ -12,7 +12,6 @@ import WhatTheySay from './components/WhatTheySay';
 class App extends Component {
   render() {
     const components = [
-        <Navbar />,
         <LandingPage />,
         <Counter />,
         <Information />,
@@ -22,6 +21,7 @@ class App extends Component {
     ]
     return (
       <div className='App'>
+        <Navbar />
         {
           components.map(child => {
           return(
