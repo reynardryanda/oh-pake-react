@@ -6,38 +6,47 @@
 }
 .box{
     display: flex;
-    height: 700px;
+    justify-content: center;
+    /* height: 700px; */
+    padding-right: 2%;
     margin-bottom: 100px;
+    flex-wrap: wrap-reverse;
 }
 .lumba{
-    height: 100%;
+    /* height: 100%; */
     width: 30%;
+    min-width: 240px;
 }
 .lumba img{
-    width: 500px;
-    margin-top: 280px;
-
+    width: 100%;
+    margin-top: 100%;
 }
 .textBubble{
     color: white;
-    width: 60%;
-    height: 100%;
+    width: 70%;
     background-image: url('../../images/textBubble.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    padding: 10% 3% 
 }
 .textBubble p{
-    font-size: 1.3rem;
-    width: 80%;
-    margin-top: 180px;
-    margin-left: 90px;
+    font-size: calc(0.5rem + 1vw);
+    width: 100%;
 }
 .textBubble h4{
     margin-top: 30px;
-    font-size: 1.2rem;
-    margin-left: 90px;
+    font-size: 1rem;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 831px){
+    .lumba img{
+        margin-top: 0;
+    }
+}
 
+@media screen and (max-width: 760px){
+    .textBubble{
+        width: 80%;
+        /* min-height: 400px;  */
+    }
 }
