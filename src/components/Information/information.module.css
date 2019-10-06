@@ -22,13 +22,14 @@ font-face {
 
 .infoContainer h2 {
   font-size: 2.1rem;
-  color: rgb(235, 178, 56);
+  /* color: rgb(235, 178, 56); */
+  color: rgb(207, 151, 30);
 }
 
 .h5Dive {
   font-size: 2rem;
   font-family: "Coves Bold";
-  color: rgb(207, 151, 30);
+  color: rgb(235, 178, 56);
 }
 
 .informationDetail {

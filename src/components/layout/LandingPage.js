@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import styles from './LandingPage.module.css';
 import Jurusan from '../carousel/Jurusan';
-import image from '../../images/cs.jpg';
+import ilkom from '../../images/ilkom.jpg';
+import si from '../../images/si.jpg';
+import compfest from '../../images/compfest.jpg';
+import muskan from '../../images/muskan.jpg';
+import educare from '../../images/educare.jpg';
 import Activities from '../carousel/Activities';
 
 
@@ -13,7 +17,7 @@ export default class LandingPage extends Component {
         content: 
           <div style={{ maxWidth: '400px', maxHeight: '400px' }}>
             <img
-              src={image}
+              src={ilkom}
               style={{ width: '100%', height: '100%' }}
               alt=''
             />
@@ -25,7 +29,7 @@ export default class LandingPage extends Component {
         content: 
           <div style={{ maxWidth: '400px', maxHeight: '400px' }}>
             <img
-              src={image}
+              src={si}
               style={{ width: '100%', height: '100%' }}
               alt=''
             />
@@ -40,7 +44,7 @@ export default class LandingPage extends Component {
         content: 
           <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '105px' }}>
             <img
-              src={image}
+              src={compfest}
               style={{ maxWidth: '100%', maxHeight: '100%' }}
               alt=''
             />
@@ -52,7 +56,7 @@ export default class LandingPage extends Component {
         content: 
           <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '105px' }}>
             <img
-              src={image}
+              src={muskan}
               style={{ maxWidth: '100%', maxHeight: '100%' }}
               alt=''
             />
@@ -64,7 +68,7 @@ export default class LandingPage extends Component {
         content: 
           <div style={{ maxWidth: '500px', maxHeight: '500px', minWidth: '105px' }}>
             <img
-              src={image}
+              src={educare}
               style={{ maxWidth: '100%', maxHeight: '100%' }}
               alt=''
             />
