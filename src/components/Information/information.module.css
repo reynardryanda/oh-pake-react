@@ -102,6 +102,7 @@ font-face {
 }
 @media screen and (max-width:478px){
   .infoContainer {
+    height: 830px;
     background-size: 500px;
   }
 }
