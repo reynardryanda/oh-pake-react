@@ -34,7 +34,7 @@ export default class SneakPeak extends Component {
   ]
 
     return (
-      <div>
+      <div id="sneakpeak">
         <h2 className={styles.title} >SneakPeak</h2>
         <div className={styles.box}>
             <div

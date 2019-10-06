@@ -61,7 +61,7 @@ export default class Counter extends Component {
 
   render() {
     return (
-      <div className={styles.counterContainer}>
+      <div id="counter" className={styles.counterContainer}>
         <div>
           <h1 className={styles.title}>DIVING DEEP IN:</h1>
         </div>

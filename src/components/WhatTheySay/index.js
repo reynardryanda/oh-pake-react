@@ -7,7 +7,7 @@ export default class WhatTheySay extends Component {
   render() {
 
     return (
-      <div>
+      <div id="testimonials">
         <h2 className={styles.title} >WHAT DO THEY SAY?</h2>
         <div className={styles.box}>
             <div className={styles.lumba}>

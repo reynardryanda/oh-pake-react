@@ -74,7 +74,7 @@ export default class LandingPage extends Component {
       }
     ]
     return (
-      <header className={styles.Header}>
+      <header id="header" className={styles.Header}>
         <Fade bottom>
           <div className={styles.TextWrapper}>
             <h1>A GLIMPSE OF LIFE AT FASILKOM UI</h1>

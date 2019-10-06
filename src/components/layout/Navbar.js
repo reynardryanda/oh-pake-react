@@ -14,7 +14,7 @@ export default class Navbar extends Component {
             <li>
                 <Link
                   activeClass="active"
-                  to=""
+                  to="header"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -24,15 +24,42 @@ export default class Navbar extends Component {
             <li>
               <Link
                 activeClass="active"
-                to="fasilkom"
+                to="counter"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration= {500}
-              >Fasilkom</Link>
+              >RSVP</Link>
             </li>
             <li>
-              <a href='#info'>OH 2019</a>
+              <Link
+                activeClass="active"
+                to="header"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration= {500}
+              >Majors</Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="testimonials"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration= {500}
+              >Testimonials</Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="sneakpeak"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration= {500}
+              >Sneak Peek</Link>
             </li>
           </ul>
         </nav>
