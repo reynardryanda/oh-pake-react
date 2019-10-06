@@ -18,3 +18,14 @@
     font-family: 'Coves Bold';
     margin-bottom: 20px;
 }
+
+@media screen and (max-width:700px){
+    .registerContainer h1 {
+        font-size: 2rem;
+    }
+    .h5Dive {
+        font-size: 1.3rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+  }
