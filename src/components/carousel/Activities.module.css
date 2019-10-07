@@ -34,7 +34,7 @@
   .slidr{
     /* padding: 50px; */
     min-width: 105px;
-    height: 280px;
+    /* height: 280px; */
     border-radius: 30px;
     box-shadow: 0px 0px 20px rgb(68, 68, 68);
     border: rgba(181, 181, 181, 0.636);
