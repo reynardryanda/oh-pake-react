@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.biggerButton > button {
+.biggerButton button {
     font-size: 1.8rem;
     font-weight: 900;
     padding: 10px 40px;
