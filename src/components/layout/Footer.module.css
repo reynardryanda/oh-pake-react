@@ -1,0 +1,24 @@
+.footerContainer{
+    width: 100%;
+    height: 70px;
+    background-color: #eceae1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+    align-items: center;
+}
+
+.sosmed img{
+    width: 50px;
+    margin: 0 15px;
+}
+@media screen and (max-width: 420px){
+    .footerContainer{
+        height: auto;
+        flex-direction: column;
+    }
+    .sosmed img{
+        width: 50px;
+        margin: 0 5px;
+    }
+  }

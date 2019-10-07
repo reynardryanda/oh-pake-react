@@ -46,13 +46,13 @@
         padding: 13% 7%;
     }
     .textBubble p{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .textBubble h4{
         font-size: 1rem;
     }
     .lumba img{
-        margin-top: 10%;
+        display: none;
     }
     .lumba{
         /* height: 100%; */
@@ -101,7 +101,7 @@
 @media screen and (max-width: 564px){
     .textBubble{
         background-image: url('../../images/textBubbleMobile3.png');
-        height: 650px;
+        height: 630px;
     }
     .textBubble p{
         font-size: 1rem;

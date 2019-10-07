@@ -19,3 +19,15 @@
   padding: 0px 20px;
   cursor: pointer;
 }
+.links{
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 420px){
+  .Navbar nav{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  .links{
+    font-size: 0.8rem;
+  }
+}

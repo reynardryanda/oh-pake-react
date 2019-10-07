@@ -19,17 +19,10 @@ export default class Navbar extends Component {
                   smooth={true}
                   offset={-70}
                   duration= {500}
-                >Home</Link>
+                ><p className={styles.links} >Home</p></Link>
             </li>
             <li>
-              <Link
-                activeClass="active"
-                to="counter"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration= {500}
-              >RSVP</Link>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDlkFijBJnEI8lPO08u-lHqoayeQIQlMUlGApp4yoj8pZKRw/viewform"><p className={styles.links} >RSVP</p></a>
             </li>
             
             <li>
@@ -40,7 +33,7 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration= {500}
-              >Sneak Peek</Link>
+              ><p className={styles.links} >Sneak Peak</p></Link>
             </li>
           </ul>
         </nav>
