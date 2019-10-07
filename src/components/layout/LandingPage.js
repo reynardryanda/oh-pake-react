@@ -18,7 +18,7 @@ export default class LandingPage extends Component {
           <div style={{ maxWidth: '400px', maxHeight: '400px' }}>
             <img
               src={ilkom}
-              style={{ width: '80%', height: '80%' }}
+              style={{ width: '100%', height: '100%' }}
               alt=''
             />
           </div>,
@@ -30,7 +30,7 @@ export default class LandingPage extends Component {
           <div style={{ maxWidth: '400px', maxHeight: '400px' }}>
             <img
               src={si}
-              style={{ width: '80%', height: '80%' }}
+              style={{ width: '100%', height: '100%' }}
               alt=''
             />
           </div>,
