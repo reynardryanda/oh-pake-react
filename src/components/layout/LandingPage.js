@@ -46,7 +46,7 @@ export default class LandingPage extends Component {
             />
           </div>,
         title: "Compfest",
-        text : "COMPFEST adalah acara IT tahunan terbesar yang diselenggarakan oleh pelajar di Indonesa. Dengan memiliki misi untuk memberi kesadaran masyarakat dalam bidang teknologi informasi, COMPFEST menyelenggarakan berbagai macam acara antara lain: akademi, kompetisi, seminar, dan juga playground."
+        text : "COMPFEST adalah acara IT tahunan terbesar yang diselenggarakan oleh pelajar di Indonesia. Dengan memiliki misi untuk memberi kesadaran masyarakat dalam bidang teknologi informasi, COMPFEST menyelenggarakan berbagai macam acara antara lain: akademi, kompetisi, seminar, dan juga playground."
       }, 
       {
         content: 
