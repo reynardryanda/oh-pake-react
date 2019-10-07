@@ -65,8 +65,3 @@
     font-size: 2rem;
   }
 }
-@media (max-width: 430px) {
-  .counterContainer {
-    padding: 400px 0 150px 0;
-  }
-}
