@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Aquatico Regular';
-  src: url('./Aquatico-Regular.otf');
+  font-family: "Aquatico Regular";
+  src: url("./Aquatico-Regular.otf");
 }
 
 @font-face {
-  font-family: 'Coves Light';
-  src: url('./Coves-Light.otf');
+  font-family: "Coves Light";
+  src: url("./Coves-Light.otf");
 }
 
 @font-face {
-  font-family: 'Coves Bold';
-  src: url('./Coves-Bold.otf');
+  font-family: "Coves Bold";
+  src: url("./Coves-Bold.otf");
 }
 
 * {
@@ -18,10 +18,10 @@
   margin: 0;
   box-sizing: border-box;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Coves Light';
+  font-family: "Coves Light";
   line-height: 1.4;
 }
-.App{
+.App {
   overflow: hidden;
 }
 a,
@@ -30,13 +30,17 @@ a:visited {
   color: inherit;
 }
 
-h1, h2, h3, h4, .aquatico{
-  font-family: 'Aquatico Regular';
+h1,
+h2,
+h3,
+h4,
+.aquatico {
+  font-family: "Aquatico Regular";
   font-weight: 300;
 }
 
-p{
-  font-family: 'Coves Light';
+p {
+  font-family: "Coves Light";
   font-weight: 100;
   color: rgb(44, 44, 44);
 }
@@ -45,7 +49,7 @@ p{
   font-weight: 800;
 }
 
-img{
+img {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
@@ -53,7 +57,7 @@ img{
   -ms-user-select: none;
 }
 
-.landingpage{
+.landingpage {
   width: 100vw;
   height: 100vh;
   background-image: url("./images/landing.jpg");
@@ -63,12 +67,18 @@ img{
   background-position: center;
 }
 
-.main-bg{
-  background-image: linear-gradient(#e3dff5,#eceae1,#a5dbe2,#8fbbc1,#629ea8)
+.main-bg {
+  background-image: linear-gradient(
+    #e3dff5,
+    #eceae1,
+    #a5dbe2,
+    #8fbbc1,
+    #629ea8
+  );
 }
 
-@media screen and (max-width:900px){
-  .landingpage{
+@media screen and (max-width: 500px) {
+  .landingpage {
     width: 100vw;
     height: 100vh;
     background-image: url("./images/landingMobile.jpg");
