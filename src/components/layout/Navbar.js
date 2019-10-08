@@ -33,7 +33,7 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration= {500}
-              ><p className={styles.links} >Sneak Peak</p></Link>
+              ><p className={styles.links} >Sneak Peek</p></Link>
             </li>
           </ul>
         </nav>
